@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .open {
+    display: flex !important;
+  }
+  
+  header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header .nav {
+    display: flex;
+    gap: 56px;
+  }
+  header .nav .nav-link {
+    color: #111112;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+  }
+  header .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  header .signup {
+    display: flex;
+    gap: 33px;
+  }
+  header .signup button {
+    width: 96px;
+    height: 43px;
+    background: #111112;
+    border-radius: 18px;
+    color: #FDFBFA;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+  }

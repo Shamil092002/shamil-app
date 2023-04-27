@@ -1,0 +1,12 @@
+.textbox {
+    width: 334px;
+    height: 126px;
+    background: #F5F5F5;
+    border-radius: 24px;
+    padding: 16px;
+  }
+  .textbox p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #ADAEAF;
+  }
